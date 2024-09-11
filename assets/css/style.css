@@ -1,0 +1,281 @@
+
+* a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #626262;
+}
+
+#NAV-LINKS {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border-bottom: white;
+    border-bottom-style: inset;
+    width: 100%;
+}
+
+#NAV-LINKS li {
+    margin: 10px;
+}
+
+
+#NAV-LINKS a {
+    color: white;
+}
+
+#NAV-LINKS li:hover, #NAV-LINKS li:focus {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#dateActuelle{
+    background-color: #696969;
+    color: white;
+    border-style: double;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+#BARRE_LANGUE {
+    display: flex;
+    align-items: center;
+}
+
+
+#BARRE_LANGUE #FR {
+    height: 25px;
+}
+
+#BARRE_LANGUE #EN {
+    height: 25px;
+}
+
+#logo {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+.nav_voiture {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 10%;
+}
+
+.nav_voiture ul {
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+    border-bottom: 1px white;
+    padding-left: 20px;
+}
+
+.nav_voiture li {
+    justify-content: center;
+    background-color: #c7c7c7;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px white;
+    padding-left: 20px;
+    height: 100px;
+}
+
+.nav_voiture li img {
+    width: 90px;
+    height: 90px;
+    transition: transform 0.2s ease-out;
+}
+
+.nav_voiture li:hover img, .nav_voiture li:focus img {
+    transform: scale(1.2);
+}
+
+.nav_voiture li p {
+    margin: 10px;
+}
+
+
+#NAV-FOOTERS {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-top: white;
+    border-top-style: inset;
+}
+
+#NAV-FOOTERS li {
+    margin: 10px;
+}
+
+#NAV-FOOTERS a {
+    color: white;
+}
+
+#NAV-FOOTERS li:hover, #NAV-LINKS li:focus {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+
+#CLASS_MERCEDES ul {
+    list-style-type: none;
+}
+
+#CLASS_MERCEDES img {
+    width: 500px;
+    margin: 25px;
+}
+
+#CLASS_MERCEDES ul li {
+    margin-right: 25px;
+    display: flex;
+    background-color: #acacac;
+}
+
+#CLASS_MERCEDES ul li div {
+
+    padding: 5px;
+
+}
+
+#CLASS_MERCEDES a {
+    color: black;
+}
+
+#CLASS_MERCEDES a:hover, #CLASS_MERCEDES a:focus {
+    color: rgb(255, 0, 0);
+}
+
+#SERIE-BMW ul {
+    list-style-type: none;
+}
+
+#SERIE-BMW img {
+    width: 500px;
+    margin: 25px;
+
+}
+
+#SERIE-BMW ul li {
+    margin-right: 25px;
+    display: flex;
+    background-color: #acacac;
+}
+
+#SERIE-BMW ul li div {
+
+    padding: 5px;
+}
+
+
+#SERIE-BMW a {
+    color: black;
+}
+
+#SERIE-BMW a:hover, #SERIE-BMW a:focus {
+    color: rgb(255, 0, 0);
+}
+
+
+#SOURCES ul {
+    list-style-type: none;
+}
+
+#SOURCES img {
+    width: 500px;
+    margin: 25px;
+
+}
+
+#SOURCES ul li {
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-left: 25px;
+    display: flex;
+    background-color: #acacac;
+}
+
+#SOURCES ul li div {
+
+    padding: 5px;
+
+}
+
+
+.slide {
+    position: relative;
+    height: 800px;
+
+
+}
+
+
+
+.slide img {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.slide img.active {
+    opacity: 1;
+
+}
+
+.suivant, .precedent {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 50px;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.suivant img, .precedent img {
+    opacity: 1;
+}
+
+.suivant button, .precedent button {
+    width: 100%;
+    height: 100%;
+    border-style: none
+}
+
+.suivant {
+    right: 1rem;
+}
+
+.precedent {
+    left: 1rem;
+}
+
+
+
+.classMERCEDES-benz, .serieBMW{
+    background-color: #acacac;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+
+
+
+
+
+
+
